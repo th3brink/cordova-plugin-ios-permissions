@@ -12,6 +12,9 @@
 		<config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
 			<string>This app needs access to the photo library to pick images.</string>
 		</config-file>
-		<resource-file src="src/ios/de.lproj" />
+		<config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+			<string>This app needs access your current location.</string>
+		</config-file>
+		<resource-file src="src/ios/en.lproj" />
 	</platform>
 </plugin>
