@@ -1,4 +1,4 @@
-# cordova-plugin-ios-permissions
+# cordova-plugin-ios-permissions-fix
 This plugin prevents crashes in iOS apps due to missing entries in the plist file.
 
 # Why?
@@ -7,7 +7,7 @@ File inputs suddenly didn't work in iOS applications created using PhoneGap Buil
 # Usage
 Include this plugin in your config.xml:
 ```
-<plugin name="cordova-plugin-ios-permissions" spec="https://github.com/MBuchalik/cordova-plugin-ios-permissions.git#v1.0.0" source="git" />
+<plugin name="cordova-plugin-ios-permissions-fix" spec="https://github.com/th3brink/cordova-plugin-ios-permissions.git#v1.0.0" source="git" />
 ```
 
 # Note
